@@ -1,0 +1,76 @@
+body {
+	color: #fff;
+	background: #aaa;
+}
+
+h2 {
+	margin-bottom: 0;	
+}
+
+h3 {
+	padding-top: 0;
+	margin-top: 0;	
+}
+
+#header {
+	height: 100px;
+	margin: 18px;
+}
+
+#container,  #filter {
+	margin: 18px;
+	background: url('bg grass.png');
+	border: #666 2px solid;
+	width: 280px;
+	height:280px;
+	-webkit-border-radius: 10px;
+}
+
+#info {
+	margin-top: 24px;
+}
+
+.hp {
+	background: url('hp.png');
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+#filter {
+	position: absolute;
+	background: url('bg filter.png');
+}
+
+#hero {
+	width: 50px;
+	height: 41px;
+	background:  url(hero.png);
+	position:absolute;
+}
+
+.heart, .trap {
+	width: 48px;
+	height: 48px;
+	background: url(heart.png) no-repeat;
+	position:absolute;
+}
+
+.trap {
+	background: url(trap.png) no-repeat;
+}
+
+.btn {
+	text-decoration: none;
+	padding: 8px 12px;
+	background:#fff;
+	color: #aaa;
+	font-weight: bold;
+	margin-right: 8px;
+	-webkit-border-radius: 10px;
+}
+
+.btn:hover {
+	background: #6fd9f4;	
+	color: #fff;
+}
